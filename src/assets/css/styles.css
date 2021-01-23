@@ -846,7 +846,7 @@ body::-webkit-scrollbar-thumb {
   }
   .navbar.show .navbar-container .menu{
     display: flex;
-    overflow-y: scroll;
+    overflow-y: auto;
     transform: translateX(0%);
   }
   .navbar.show {
