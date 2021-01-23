@@ -1,12 +1,12 @@
 {
-  "name": "Arca virtual",
-  "short_name": "Arca virtual",
-  "theme_color": "#33497c",
+  "name": "Travel App",
+  "short_name": "Travel App",
+  "theme_color": "#20313b",
   "background_color": "#ffffff",
   "display": "standalone",
   "scope": ".",
   "start_url": ".",
-  "categories": ["editorial", "educación", "libros", "plataforma", "arca virtual"],
+  "categories": ["travel", "trip", "agency", "tour", "peru"],
   "icons": [
     {
       "src": "favicon.ico",

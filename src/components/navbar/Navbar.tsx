@@ -6,8 +6,9 @@ import imgPhoneRinging from "../../assets/icons/icons8-ringer-volume-30.png";
 import imgMenu from "../../assets/icons/icons8-menu-60.png";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
+  const scrollHeight = window.scrollY;
   return (
-    <div id="navbar" className={`navbar ${showMenu ? 'show' : ''}`}>
+    <div id="navbar" className={`navbar ${showMenu ? 'show' : ''} ${scrollHeight > 100 ? 'black' : ''}`}>
       <div className="navbar-container container">
         <div className="logo">
           <img className="logo-img" src={imgLogo} alt="" />

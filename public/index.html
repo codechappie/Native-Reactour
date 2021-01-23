@@ -54,6 +54,19 @@
           navbar.classList.remove("black")
         }
       });
+      let btn = document.querySelector(".btn-responsive")
+     if(btn){
+      btn.addEventListener("click", (event) => {
+        let scroll = this.scrollY;
+        let navbar = document.querySelector(".navbar");
+        if(scroll > 100){
+          navbar.classList.add("black")
+        } else{
+          navbar.classList.remove("black")
+        }
+      });
+     }
+
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
           navigator.serviceWorker
