@@ -541,6 +541,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 .footer-container .footer-content .column .social-networking-sites {
   display: flex;
