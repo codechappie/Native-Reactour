@@ -1,37 +1,43 @@
 import React from "react";
 
 import imgStar from "../../assets/icons/icons8-star-48.png";
-import imgCard from "../../assets/images/amazonas-card.jpg";
+import imgSelva from "../../assets/images/amazonas-card.jpg";
+import imgSanIgnacio from "../../assets/images/SanIgnacio.jpg";
+import imgIquitos from "../../assets/images/iquitos.jpg";
+import imgHuacachina from "../../assets/images/huacachina.jpg";
+import imgMachuPicchu from "../../assets/images/machupicchu.jpg";
 
 const Destinations = () => {
   return (
     <div className="destinations">
       <div className="destinations-container container">
-        <h2 className="title">Destinos más visitados</h2>
+        <h2 className="title">Tours más comprados</h2>
         <div className="cards">
-        <div className="card">
+          <div className="card">
             <div className="image">
-              <small className="discount">10%</small>
-              <img src={imgCard} alt="" />
+              <small className="discount">Aventura</small>
+              <img src={imgSanIgnacio} alt="" />
               <div className="basic-info">
-                <h3>Amazonas</h3>
-                <h5>3 dias, 2 noches</h5>
+                <h3>Cajamarca</h3>
+                <h5>San Ignacio y Cerro Campana</h5>
               </div>
             </div>
             <div className="general-info">
-                <h2>Amazonas & Zen Tour</h2>
-                <div className="row detail-two">
-                  <div className="duration">
-                    <span className="exact-time">00:24:30</span>
-                    <span className="time-format">
-                      <small>dias</small><small>horas</small><small>minutos</small>
-                    </span>
-                  </div>
-                  <div className="cost">
-                    <small className="before">S/.300</small>
-                    <small className="now">S/.270</small>
-                  </div>
+              <h2>San Ignacio Adventure Tour</h2>
+              <div className="row detail-two">
+                <div className="duration">
+                  {/* <span className="exact-time">00:12:30</span> */}
+                  <span className="time-format">
+                    <small>Columpio</small>
+                    <small>Puente Colgante</small>
+                    <small>Bicicleta Aérea</small>
+                  </span>
                 </div>
+                <div className="cost">
+                  <small className="before">S/.300</small>
+                  <small className="now">S/.250</small>
+                </div>
+              </div>
               <div className="row card-footer">
                 <div className="stars">
                   <img src={imgStar} alt="" />
@@ -46,27 +52,29 @@ const Destinations = () => {
           </div>
           <div className="card">
             <div className="image">
-              <small className="discount">10%</small>
-              <img src={imgCard} alt="" />
+              <small className="discount">Familiar</small>
+              <img src={imgIquitos} alt="" />
               <div className="basic-info">
-                <h3>Amazonas</h3>
-                <h5>3 dias, 2 noches</h5>
+                <h3>Loreto</h3>
+                <h5>Iquitos</h5>
               </div>
             </div>
             <div className="general-info">
-                <h2>Amazonas & Zen Tour</h2>
-                <div className="row detail-two">
-                  <div className="duration">
-                    <span className="exact-time">00:24:30</span>
-                    <span className="time-format">
-                      <small>dias</small><small>horas</small><small>minutos</small>
-                    </span>
-                  </div>
-                  <div className="cost">
-                    <small className="before">S/.300</small>
-                    <small className="now">S/.270</small>
-                  </div>
+              <h2>Alma Verde Tours</h2>
+              <div className="row detail-two">
+                <div className="duration">
+                  {/* <span className="exact-time">00:24:30</span> */}
+                  <span className="time-format">
+                    <small>Pinturas rupestres</small>
+                    <small>Catarata La Chorrera</small>
+                    <small>Cerro Campana</small>
+                  </span>
                 </div>
+                <div className="cost">
+                  <small className="before">S/.300</small>
+                  <small className="now">S/.270</small>
+                </div>
+              </div>
               <div className="row card-footer">
                 <div className="stars">
                   <img src={imgStar} alt="" />
@@ -81,27 +89,30 @@ const Destinations = () => {
           </div>
           <div className="card">
             <div className="image">
-              <small className="discount">10%</small>
-              <img src={imgCard} alt="" />
+              <small className="discount">Aventura</small>
+
+              <img src={imgHuacachina} alt="" />
               <div className="basic-info">
-                <h3>Amazonas</h3>
-                <h5>3 dias, 2 noches</h5>
+                <h3>Ica</h3>
+                <h5>Huacachina</h5>
               </div>
             </div>
             <div className="general-info">
-                <h2>Amazonas & Zen Tour</h2>
-                <div className="row detail-two">
-                  <div className="duration">
-                    <span className="exact-time">00:45:10</span>
-                    <span className="time-format">
-                      <small>dias</small><small>horas</small><small>minutos</small>
-                    </span>
-                  </div>
-                  <div className="cost">
-                    <small className="before">S/.300</small>
-                    <small className="now">S/.270</small>
-                  </div>
+              <h2>Sol Eterno Travel & Service</h2>
+              <div className="row detail-two">
+                <div className="duration">
+                  {/* <span className="exact-time">00:45:10</span> */}
+                  <span className="time-format">
+                    <small>Tubulares</small>
+                    <small>Islas Paracas</small>
+                    <small>Cuatrimotos</small>
+                  </span>
                 </div>
+                <div className="cost">
+                  <small className="before">S/.200</small>
+                  <small className="now">S/.140</small>
+                </div>
+              </div>
               <div className="row card-footer">
                 <div className="stars">
                   <img src={imgStar} alt="" />
@@ -116,27 +127,29 @@ const Destinations = () => {
           </div>
           <div className="card">
             <div className="image">
-              <small className="discount">10%</small>
-              <img src={imgCard} alt="" />
+              <small className="discount">Familiar</small>
+              <img src={imgMachuPicchu} alt="" />
               <div className="basic-info">
-                <h3>Amazonas</h3>
-                <h5>3 dias, 2 noches</h5>
+                <h3>Cuzco</h3>
+                <h5>Machu Picchu</h5>
               </div>
             </div>
             <div className="general-info">
-                <h2>Amazonas & Zen Tour</h2>
-                <div className="row detail-two">
-                  <div className="duration">
-                    <span className="exact-time">01:10:30</span>
-                    <span className="time-format">
-                      <small>dias</small><small>horas</small><small>minutos</small>
-                    </span>
-                  </div>
-                  <div className="cost">
-                    <small className="before">S/.300</small>
-                    <small className="now">S/.270</small>
-                  </div>
+              <h2>Montañas Tours SAC</h2>
+              <div className="row detail-two">
+                <div className="duration">
+                  {/* <span className="exact-time">01:10:30</span> */}
+                  <span className="time-format">
+                    <small>Ciudadela</small>
+                    <small>Sacsayhuaman</small>
+                    <small>Plaza de Armas</small>
+                  </span>
                 </div>
+                <div className="cost">
+                  <small className="before">S/.400</small>
+                  <small className="now">S/.350</small>
+                </div>
+              </div>
               <div className="row card-footer">
                 <div className="stars">
                   <img src={imgStar} alt="" />

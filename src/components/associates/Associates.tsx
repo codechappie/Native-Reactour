@@ -1,14 +1,20 @@
 import React from "react";
 import Slider from "react-slick";
 import imgImages from "../../assets/images/company-logo.png";
+import imgMincetur from "../../assets/images/inf_turismo.jpg";
+import imgCruzSur from "../../assets/images/logo-cruz.png";
+import imgLan from "../../assets/images/logo-lan.jpg";
+import imgNorkys from "../../assets/images/logo-norkys.png";
+import imgHosteria from "../../assets/images/logox2.jpg";
+import imgQueirolo from "../../assets/images/logo-queirolo.png";
 
 const Associates = () => {
   const settings = {
     arrows: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 6,
+    slidesToShow: 7,
+    slidesToScroll: 7,
     responsive: [
       {
         breakpoint: 1280,
@@ -54,31 +60,22 @@ const Associates = () => {
             <img src={imgImages} alt="" />
           </div>
           <div className="associates-card">
-            <img src={imgImages} alt="" />
+            <img src={imgMincetur} alt="" />
           </div>
           <div className="associates-card">
-            <img src={imgImages} alt="" />
+            <img src={imgCruzSur} alt="" />
           </div>
           <div className="associates-card">
-            <img src={imgImages} alt="" />
+            <img src={imgLan} alt="" />
           </div>
           <div className="associates-card">
-            <img src={imgImages} alt="" />
+            <img src={imgNorkys} alt="" />
           </div>
           <div className="associates-card">
-            <img src={imgImages} alt="" />
+            <img src={imgHosteria} alt="" />
           </div>
           <div className="associates-card">
-            <img src={imgImages} alt="" />
-          </div>
-          <div className="associates-card">
-            <img src={imgImages} alt="" />
-          </div>
-          <div className="associates-card">
-            <img src={imgImages} alt="" />
-          </div>
-          <div className="associates-card">
-            <img src={imgImages} alt="" />
+            <img src={imgQueirolo} alt="" />
           </div>
         </Slider>
       </div>

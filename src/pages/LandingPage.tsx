@@ -12,7 +12,6 @@ const LandingPage = () => {
       <Hero />
       <Reasons />
       <Destinations />
-      <Destinations />
       <Associates />
       <Footer />
     </>
