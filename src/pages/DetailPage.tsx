@@ -75,10 +75,21 @@ const DetailPage = () => {
               />
             </div>
             <div className="places-to-visit">
-              <h3>Lugares para visitar</h3>
-              <h4>- Ciudadela</h4>
-              <h4>- Sacsayhuaman</h4>
-              <h4>- Plaza de Armas</h4>
+              <div className="di">
+                <h3>Lugares para visitar</h3>
+                <h4>- Ciudadela</h4>
+                <h4>- Sacsayhuaman</h4>
+                <h4>- Plaza de Armas</h4>
+              </div>
+              <div className="di">
+                <h3>El tour incluye:</h3>
+                <h4>- Recorrido guiado</h4>
+                <h4>- Alojamiento</h4>
+                <h4>- Aperitivos</h4>                
+              </div>
+              <div className="payment-buttons">
+                    <img src="https://simple-membership-plugin.com/wp-content/uploads/2018/09/paypal-smart-payment-button-for-simple-membership.jpg" alt=""/>
+              </div>
             </div>
           </div>
         </div>

@@ -768,6 +768,14 @@ body::-webkit-scrollbar-thumb {
 
 .places-to-visit{
   padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+}
+.places-to-visit .payment-buttons img{
+  cursor: pointer;
 }
 .general-place {
   display: grid;
@@ -800,12 +808,18 @@ body::-webkit-scrollbar-thumb {
   border-radius: 15px;
 }
 .maps-place .places-to-visit h3{
-    font-size: 2.3em;
-    margin-bottom: 20px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 .maps-place .places-to-visit h4{
-  font-size: 1.7em;
+  font-size: 1.2em;
   padding: 10px 0;
+}
+.di {
+  margin-bottom: 20px;
+}
+.di:nth-last-child(2) {
+  margin-bottom: 0;
 }
 
 
