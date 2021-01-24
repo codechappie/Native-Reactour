@@ -27,33 +27,39 @@ const Reasons = () => {
           <div className="items">
             <div className="item">
               <div className="border">
-                  <img src={imgStar} alt="" />
+                <img src={imgStar} alt="" />
               </div>
               <h2>Mejores actividades seleccionadas</h2>
             </div>
             <div className="item">
               <div className="border">
-                  <img src={imgStar} alt="" />
+                <img src={imgStar} alt="" />
               </div>
               <h2>Disponibilidad en vivo</h2>
             </div>
             <div className="item">
               <div className="border">
-                  <img src={imgStar} alt="" />
+                <img src={imgStar} alt="" />
               </div>
-              <h2>Confirmacion instantanea</h2>
+              <h2>Confirmación instantánea</h2>
             </div>
             <div className="item">
               <div className="border">
-                  <img src={imgStar} alt="" />
+                <img src={imgStar} alt="" />
               </div>
               <h2>Pagos 100% seguros</h2>
             </div>
             <div className="item">
               <div className="border">
-                  <img src={imgStar} alt="" />
+                <img src={imgStar} alt="" />
               </div>
-              <h2>Sin comisiones por reserva o credito</h2>
+              <h2>Sin comisiones por reserva o crédito</h2>
+            </div>
+            <div className="item">
+              <div className="border">
+                <img src={imgStar} alt="" />
+              </div>
+              <h2>Feedback en cada empresa</h2>
             </div>
           </div>
         </div>
