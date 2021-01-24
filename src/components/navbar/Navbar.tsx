@@ -10,9 +10,9 @@ const Navbar = () => {
   return (
     <div id="navbar" className={`navbar ${showMenu ? 'show' : ''} ${scrollHeight > 100 ? 'black' : ''}`}>
       <div className="navbar-container container">
-        <div className="logo">
+        <Link to="/" className="logo">
           <img className="logo-img" src={imgLogo} alt="" />
-        </div>
+        </Link>
 
         <div className="menu">
           <div className="menu-items">

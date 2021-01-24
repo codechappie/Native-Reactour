@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import imgStar from "../../assets/icons/icons8-star-48.png";
 import imgSelva from "../../assets/images/amazonas-card.jpg";
@@ -6,8 +6,12 @@ import imgSanIgnacio from "../../assets/images/SanIgnacio.jpg";
 import imgIquitos from "../../assets/images/iquitos.jpg";
 import imgHuacachina from "../../assets/images/huacachina.jpg";
 import imgMachuPicchu from "../../assets/images/machupicchu.jpg";
+import { Link } from "react-router-dom";
 
 const Destinations = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="destinations">
       <div className="destinations-container container">
@@ -158,7 +162,7 @@ const Destinations = () => {
                   <img src={imgStar} alt="" />
                   <img src={imgStar} alt="" />
                 </div>
-                <div className="reserve-button">Ver más</div>
+                <Link to="/browse/machupicchu" className="reserve-button">Ver más</Link>
               </div>
             </div>
           </div>
