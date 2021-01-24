@@ -849,7 +849,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 0;
   }
 
-
 }
 @media screen and (max-width: 1280px) {
   .container {
@@ -893,6 +892,18 @@ body::-webkit-scrollbar-thumb {
      content: ''!important;
   }
   /*FOOTER*/
+
+
+  .general-place, 
+  .maps-place{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .general-place .detail-place > div{
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1080px) {
