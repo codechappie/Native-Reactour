@@ -28,7 +28,7 @@ const Destinations = () => {
                 <div className="duration">
                   {/* <span className="exact-time">00:12:30</span> */}
                   <span className="time-format">
-                    <small>Columpio</small>
+                    <small>Columpio Extremo</small>
                     <small>Puente Colgante</small>
                     <small>Bicicleta Aérea</small>
                   </span>
@@ -60,12 +60,12 @@ const Destinations = () => {
               </div>
             </div>
             <div className="general-info">
-              <h2>Alma Verde Tours</h2>
+              <h2>Alma Verde Tours SAC</h2>
               <div className="row detail-two">
                 <div className="duration">
                   {/* <span className="exact-time">00:24:30</span> */}
                   <span className="time-format">
-                    <small>Pinturas rupestres</small>
+                    <small>Pinturas Rupestres</small>
                     <small>Catarata La Chorrera</small>
                     <small>Cerro Campana</small>
                   </span>
@@ -103,8 +103,8 @@ const Destinations = () => {
                 <div className="duration">
                   {/* <span className="exact-time">00:45:10</span> */}
                   <span className="time-format">
-                    <small>Tubulares</small>
-                    <small>Islas Paracas</small>
+                    <small>Tubulares y Sandboarding</small>
+                    <small>Islas Ballestas</small>
                     <small>Cuatrimotos</small>
                   </span>
                 </div>
@@ -140,7 +140,7 @@ const Destinations = () => {
                 <div className="duration">
                   {/* <span className="exact-time">01:10:30</span> */}
                   <span className="time-format">
-                    <small>Ciudadela</small>
+                    <small>Ciudadela de Machu Picchu</small>
                     <small>Sacsayhuaman</small>
                     <small>Plaza de Armas</small>
                   </span>
